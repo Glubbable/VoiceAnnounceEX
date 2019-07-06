@@ -30,28 +30,4 @@ public void __pl_voiceannounceex_SetNTVOptional()
  * @return 			True if client is speaking, false otherwise.
  *
  */
-
 native bool IsClientSpeaking(int client);
-
-/**
- *
- * Called while a client is speaking.
- *
- *	@param client	Client index.
- *
- * @noreturn
- *
- */
-
-forward void OnClientSpeakingEx(int client);
-
-/**
- *
- * Called when a client ends speaking.
- *
- * @param client	Client index.
- *
- * @noreturn
- *
- */
-forward void OnClientSpeakingEnd(int client);
